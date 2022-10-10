@@ -1,6 +1,7 @@
 """Module used to simulate an interface for other classes to implement"""
 from abc import ABC, abstractmethod
 
+
 class IBdManager(ABC):
     """Class that simulates an interface"""
 

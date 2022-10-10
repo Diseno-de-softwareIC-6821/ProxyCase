@@ -1,1 +1,8 @@
 TestArchivo de prueba
+
+
+
+2022-10-09 20:52:37.572720 Insert Into TABLA (json) values {name: Esteban, phone: [1,2,3]}
+2022-10-09 20:52:42.579365 Updating Into TABLA (json) values {name: Daniel, lastname: Sambucci}
+2022-10-09 20:52:47.588407 Deleting json where id=3
+2022-10-09 20:52:52.590139 Insert Into TABLA (json) values {name: Daniel, lastname: Cornejo}

@@ -1,11 +1,12 @@
 import pathlib
 
+
 class FileManager():
     def __init__(self):
         # Get the current path, solving problem saving files on same fileManager.py path
         self.path = str((pathlib.Path(__file__).parent.resolve()))
         self.path = self.path[:self.path.find("src")] + "files\\"
-    
+
     def loadTxt(self, mode):
         txtData = ""
         try:
